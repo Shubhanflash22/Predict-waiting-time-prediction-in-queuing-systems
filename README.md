@@ -41,33 +41,13 @@ Key components include:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/queue-wait-time-prediction.git
-cd queue-wait-time-prediction
-
-# Install required Python packages
-pip install -r requirements.txt
+git clone https://github.com/yourusername/Predict-waiting-time-prediction-in-queuing-systems.git
+cd Predict-waiting-time-prediction-in-queuing-systems
 ```
 
 ## Usage
 
-1. Prepare queue dataset in CSV format.
-2. Run preprocessing script:
-
-```bash
-python preprocess_data.py
-```
-
-3. Train the neural network model:
-
-```bash
-python train_model.py
-```
-
-4. Predict waiting times for new customers:
-
-```bash
-python predict_waiting_time.py --input new_queue_data.csv
-```
+Pls reach out in case the results in the report need to be recreated
 
 ## Models
 
@@ -86,6 +66,19 @@ python predict_waiting_time.py --input new_queue_data.csv
 * Expand to multi-queue and multi-service environments.
 * Integrate reinforcement learning for dynamic queue management.
 * Apply to other industries such as hospitals, call centers, and retail.
+
+## Citation
+
+If you use this work, please cite:
+
+```bibtex
+@software{Predict-waiting-time-prediction-in-queuing-systems,
+  author = {Shubhan Mital},
+  title = {Predict waiting time prediction in queuing systems},
+  year = {2025},
+  url = https://github.com/Shubhanflash22/Predict-waiting-time-prediction-in-queuing-systems.git
+}
+```
 
 ## License
 
